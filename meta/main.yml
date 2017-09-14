@@ -37,7 +37,7 @@ galaxy_info:
   #   versions:
   #   - all
   #   - 25
-   - name: Centos
+- name: Centos
   #   versions:
   #   - all
   #   - 1.0
