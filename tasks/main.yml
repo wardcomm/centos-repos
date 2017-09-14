@@ -1,2 +1,16 @@
----
-# tasks file for centos-repos
+- name: Add EPEL repository
+  yum_repository:
+    name: epel
+    description: EPEL YUM repo
+    baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+    gpgcheck: no
+
+
+# - name: Add Some repo
+#   yum_repository:
+#     name: somerepo
+#     description: Some YUM repo
+#     baseurl: http://server.com/path/to/the/repo
+#     gpgkey: http://server.com/keys/somerepo.pub
+#     gpgcheck: yes
+#     params: "{{ my_role_somerepo_params }}"    
