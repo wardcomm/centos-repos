@@ -2,10 +2,10 @@
 dependencies: []
 
 galaxy_info:
-  author: "J. Chad Ward"
+  author: J. Chad Ward
   description: This is a simple role for installing the repos for centos 7
   company: jchadward.com
-  license: "license (BSD, MIT)"
+  license: license (BSD, MIT)
   min_ansible_version: 1.2
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
