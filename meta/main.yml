@@ -1,6 +1,8 @@
 ---
+#dependencies: []
+#  - { role: username.common, some_parameter: 3 }
 galaxy_info:
-  author: J. Chad Ward
+  author: wardcomm
   description: Add yum repos for Centos 7
   company: jchadward.com
   license: MIT
@@ -14,5 +16,5 @@ galaxy_info:
     - yum
     - repos
     - Centos
-dependencies:
+#dependencies:
 #  - { role: username.common, some_parameter: 3 }
