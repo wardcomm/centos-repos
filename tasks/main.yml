@@ -1,3 +1,4 @@
+---
 - name: Add EPEL repository
   yum_repository:
     name: epel
@@ -13,4 +14,4 @@
 #     baseurl: http://server.com/path/to/the/repo
 #     gpgkey: http://server.com/keys/somerepo.pub
 #     gpgcheck: yes
-#     params: "{{ my_role_somerepo_params }}"    
+#     params: "{{ my_role_somerepo_params }}"
