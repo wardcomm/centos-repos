@@ -15,6 +15,6 @@ galaxy_info:
   galaxy_tags:
     - yum
     - repos
-    - Centos
+    - centos
 #dependencies:
 #  - { role: username.common, some_parameter: 3 }
